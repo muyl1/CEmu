@@ -19,6 +19,7 @@ extern "C" {
 #define INT_LCD       (1 << 11)
 #define INT_RTC       (1 << 12)
 #define INT_PWR       (1 << 15)
+#define INT_USART     (1 << 16)
 #define INT_WAKE      (1 << 19)
 
 typedef struct interrupt_state {

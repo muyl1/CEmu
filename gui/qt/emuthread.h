@@ -52,7 +52,7 @@ public:
         RequestSend,
         RequestReceive,
         RequestAutoTester,
-        RequestDebugger
+        RequestDebugger,
     };
 
     int type = ConsoleNorm;
